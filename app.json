@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/photograph/photograph",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "303YY",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png",
+      "text": ""
+    }, {
+      "pagePath": "pages/photograph/photograph",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png",
+      "text": "上传"
+    }, {
+      "pagePath": "pages/my/my",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png",
+      "text": "我的"
+    }]
+  },
+  "debug": true
+}
