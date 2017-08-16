@@ -20,19 +20,16 @@
     "backgroundColor": "#ffffff",
     "list": [{
       "pagePath": "pages/home/home",
-      "iconPath": "image/icon_normal.png",
-      "selectedIconPath": "image/icon_pressed.png",
-      "text": ""
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_pressed.png"
     }, {
       "pagePath": "pages/photograph/photograph",
-      "iconPath": "image/icon_normal.png",
-      "selectedIconPath": "image/icon_pressed.png",
-      "text": "上传"
+      "iconPath": "image/photograph.png",
+      "selectedIconPath": "image/photograph_pressed.png"
     }, {
       "pagePath": "pages/my/my",
-      "iconPath": "image/icon_normal.png",
-      "selectedIconPath": "image/icon_pressed.png",
-      "text": "我的"
+      "iconPath": "image/account.png",
+      "selectedIconPath": "image/account_pressed.png"
     }]
   },
   "debug": true

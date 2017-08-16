@@ -1,23 +1,35 @@
-/**index.wxss**/
+/**my.wxss**/
 .container {
-  padding: 10px 0px;
-  background-color: #F2f2f2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
 }
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.button-sb {
+  color: #fff;
+  background: #05a500;
+}
+
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
+
 .userinfo-nickname {
   color: #aaa;
 }
-.info {
-  margin-top: 50px;
-  text-align: center;
+
+.usermotto {
+  margin-top: 200px;
 }

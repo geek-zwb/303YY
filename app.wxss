@@ -3,12 +3,19 @@
 
 .container {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    padding: 0;
     box-sizing: border-box;
 }
 
 page {
-    background-color: #F2f2f2;
+    background-color: #f2f2f2;
+}
+.image{
+    width:100%;
+    height:240px;
 }
