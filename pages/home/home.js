@@ -52,7 +52,7 @@ let mTimes = [];
 let mTitles = [];
 let mKeys = [];
 
-let mCurrentPage = 0;
+let mCurrentPage = parseInt(Math.random() * 20, 10);
 
 /**
  * 请求数据
@@ -76,6 +76,8 @@ function requestData(that, targetPage) {
         || res.data.results == null
         || res.data.results.length <= 0
       ) {
+        let randPage = parseInt(Math.random() * 10, 10);
+        requestData(that, randPage);
         return;
       }
 
