@@ -2,7 +2,7 @@
 <view class="container">
     <view class="card" wx:key="{{item.key}}" wx:for="{{imgList}}" wx:for-item="item">
         <view class="main-img-box">
-            <image mode="widthFix" class="image" src="{{item.url}}"/>
+            <image mode="widthFix" class="image" src="{{item.url}}"  data-src="{{item.url}}" bindtap="previewImage" />
         </view>
         <view class="author-info">
             <view class="author-img-box">

@@ -30,6 +30,16 @@ Page({
     });
     requestData(that, mCurrentPage + 1);
   },
+  /**
+   * 预览图片
+   */
+  previewImage: function (e) {
+    var current = e.target.dataset.src;
+    wx.previewImage({
+      current: current, // 当前显示图片的http链接  
+      urls: mUrl // 需要预览的图片http链接列表
+    })
+  }
 })
 
 /**
@@ -79,7 +89,15 @@ function requestData(that, targetPage) {
       for (let i = 0; i < mUrl.length; i++) {
         let likeCount = Math.random() * 1000;
         likeCount = parseInt(likeCount, 10);
-        itemList.push({likeCount, key: mKeys[i], url: mUrl[i], desc: mDesc[i], who: mWho[i], time: mTimes[i], title: mTitles[i]});
+        itemList.push({
+          likeCount,
+          key: mKeys[i],
+          url: mUrl[i],
+          desc: mDesc[i],
+          who: mWho[i],
+          time: mTimes[i],
+          title: mTitles[i]
+        });
       }
 
       that.setData({
