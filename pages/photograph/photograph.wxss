@@ -8,7 +8,10 @@
     width: 100%;
     margin-top: 20px;
 }
-
+.image-box {
+    width: 100%;
+    height: 100%;
+}
 .textInput {
     width: calc(100% - 20px);
     background: #fff;

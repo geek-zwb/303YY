@@ -3,11 +3,11 @@
   <view class="userinfo">
     <block wx:if="{{hasUserInfo}}">
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="userinfo-nickname">欢迎你，{{userInfo.nickName}} ~</text>
     </block>
-    <button class="button-sb" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点我下你能看到傻逼 </button>
+    <button class="button-sb" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击此处加入我们 </button>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">让我们一起享受摄影与美吧~</text>
   </view>
 </view>

@@ -4,11 +4,13 @@
             choose images
         </button>
     </view>-->
-    <image class="image" src="{{imgPath}}" mode="widthFix" />
+    <view class="image-box" bindtap="chooseImg">
+        <image class="image" src="{{imgPath}}" mode="widthFix"/>
+    </view>
     <view class="section">
         <form bindsubmit="bindFormSubmit">
-            <textarea class="textInput" auto-height placeholder="讲讲这张照片" />
-            <button class="textButton" form-type="submit"> Upload </button>
+            <textarea class="textInput" auto-height placeholder="讲讲这张照片"/>
+            <button class="textButton" form-type="submit">Upload</button>
         </form>
     </view>
 </view>
