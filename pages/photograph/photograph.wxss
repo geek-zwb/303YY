@@ -1,6 +1,23 @@
 .center {
     flex: 1;
-    margin-top: 200px;
     color: #05a500;
     text-align: center;
+}
+
+.section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textInput {
+    width: calc(100% - 20px);
+    background: #fff;
+    min-height: 100px;
+    font-size: 13px;
+    padding: 10px;
+}
+.textButton {
+    color: #fff;
+    background: #4ec046;
+    margin: 10px 5px;
 }

@@ -1,5 +1,14 @@
 <view class="container">
-    <view class="center">
-        老婆， 呀呀呀， 你咋这么可爱嘞 ！！！
+    <!--<view class="center">
+        <button bindtap="chooseImg">
+            choose images
+        </button>
+    </view>-->
+    <image class="image" src="{{imgPath}}" mode="widthFix" />
+    <view class="section">
+        <form bindsubmit="bindFormSubmit">
+            <textarea class="textInput" auto-height placeholder="讲讲这张照片" />
+            <button class="textButton" form-type="submit"> Upload </button>
+        </form>
     </view>
 </view>
